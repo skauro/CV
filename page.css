@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+tytle
+{
+	font-family: copperplate;
+	font-size: 80px;
+	color: #692a2a;
+}
+body
+{
+	background-color:#FAEBD7;
+}
+.navbar
+{
+	width: 90%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a
+{
+	text-decoration: none;
+	color: darkred;
+	text-transform: uppercase;
+}
+.navbar ul li::after
+{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after
+{
+	width: 100%;
+}
+.content
+{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: darkred;
+}
+.content h1
+{
+	font-size: 70px;
+	margin-top: 80px;
+}
+.content p
+{
+	margin: 25px auto;
+	font-weight: 120;
+	line-height: 25px;
+}
+.why
+{
+	width: 70%;
+	position: absolute;
+	top: 200%;
+	left: 10%;
+	margin: 20px;
+}
+.why h1
+{
+	margin: 10px;
+}
+.why ol
+{
+	margin: 10px;
+}
+.why li
+{
+	margin: 12px;
+}
+.why dd
+{
+	margin: 10px;
+}
+.lilpic
+{
+	position: absolute;
+	top: 35%;
+	left: 4%;
+}
+.scroll
+{
+	font-family: 'Times New Roman', Times, serif
+}
+.scroll h1
+{
+	position: absolute;
+	top: 90%;
+	left: 40%;
+}
+.scroll h2
+{
+	font-size: 500%;
+	position: absolute;
+	top: 85%;
+	left: 47%;
+}
+.hire
+{
+	position: absolute;
+	top: 280%;
+	
+}
+.hire img
+{
+	width: 100%;
+	height: 1028px;
+}
+.hire p
+{
+	font-family: 'Times New Roman', Times, serif;
+	color: darkred;
+	font-size: 120px;
+	position: absolute;
+	top: 49%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+.button {
+	background-color: rgb(77, 77, 2); 
+	border: none;
+	color: darkred;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 28px;
+  }
